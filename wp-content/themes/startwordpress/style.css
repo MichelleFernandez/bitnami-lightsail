@@ -5,3 +5,51 @@ Description: Bootstrap Blog template converted to WordPress
 Version: 0.0.1
 Tags: bootstrap
 */
+
+/* Navbar */ 
+.blog-masthead {
+	background-color: pink;
+	box-shadow: unset;
+}
+
+.blog-masthead .container {
+	text-align: center;
+}
+
+/* Hero */ 
+#hero {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: pink;
+}
+
+#hero .blog-header, #hero .hero-action {
+	width: 100%;
+	text-align: center;
+}
+
+/* Sections */
+.section {
+	min-height: 90vh;	
+}
+
+#categories{
+	padding: 50px 0;
+}
+
+#categories ul {
+	text-align: center;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#categories .category-thumb {
+	width: 100px;
+	height: 100px;
+	background-color: olive;
+	margin: 0 auto;
+}
