@@ -12,6 +12,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php echo get_bloginfo( 'template_directory' );?>/blog.css" rel="stylesheet">
 	<link href="<?php echo get_bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -23,28 +24,26 @@
 <body>
 
 	<div class="blog-masthead">
-		<div class="container">
-			<nav class="blog-nav">
-				<a class="blog-nav-item active" href="#">Home</a>
-				<a class="blog-nav-item" href="#">New features</a>
-				<a class="blog-nav-item" href="#">Press</a>
-				<a class="blog-nav-item" href="#">New hires</a>
-				<a class="blog-nav-item" href="#">About</a>
-			</nav>
-		</div>
+		<nav class="blog-nav">
+			<a class="blog-nav-item active" href="#">Home</a>
+			<a class="blog-nav-item" href="#">Our Tour</a>
+			<a class="blog-nav-item" href="#">Schedule</a>
+			<a class="blog-nav-item" href="#">FAQ</a>
+		</nav>
 	</div>
 	
 
 	<div id="hero">
-		<div class="blog-header">
-			<h1 class="blog-title"><a href="">Do you know Medellín</a></h1>
-			<p class="lead blog-description">...Do it riding a bici with us!</p>
+		<div class="content-wrapper">
+			<div class="blog-header">
+				<h1 class="blog-title">Do you know Medellín?</h1>
+				<p class="lead blog-description">...Do it riding a bici with us!</p>
+			</div>
+			<div class="hero-action">
+				<button>Conctact us</button>
+				<button>Book Your Space</button>
+			</div>
 		</div>
-		<div class="hero-action">
-			<button>Conctact us</button>
-			<button>Book Your Space</button>
-		</div>
-
 	</div>
 
 	<div class="container">

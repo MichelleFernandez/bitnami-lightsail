@@ -6,6 +6,8 @@
 
 			<!-- TODO: separate into cetegories.php file -->
 			<div id="categories" class="section">
+				<h1>Too many places to discover</h1>
+				<p>22 km and 5 hours riding in Medellin with all that you need</p>
 		                <ul>
 		                        <li class="category-item">
 						<div class="category-thumb"></div>
